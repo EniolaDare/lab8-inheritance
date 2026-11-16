@@ -8,7 +8,7 @@ public class Main {
     public static void main(String[] args) {
         String eventName = "Summer Concert";
         String holderName = "Holder Holdings";
-        double basePrice = 50;
+        double basePrice = 80;
 
         Ticket alice = new Ticket(eventName, holderName, basePrice);
         StudentTicket bob = new StudentTicket(eventName, holderName, basePrice, "S12345");
